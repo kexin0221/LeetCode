@@ -1,0 +1,19 @@
+### 解题思路
+
+此处撰写解题思路
+
+![PEY`2QLWEZ6\[AOWY9BIEOU5.png](https://pic.leetcode-cn.com/1621605113-zMYdES-PEY%602QLWEZ6%5BAOWY9BIEOU5.png)
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
+    }
+}
+
+```
+
