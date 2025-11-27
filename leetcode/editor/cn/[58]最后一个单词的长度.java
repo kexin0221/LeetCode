@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution58 {
     public int lengthOfLastWord(String s) {
         String[] strArr = s.split(" ");
         return strArr[strArr.length - 1].length();
