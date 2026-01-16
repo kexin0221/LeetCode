@@ -9,6 +9,7 @@ class Solution {
                     arr[j + 1] = arr[j];
                 }
                 arr[++i] = 0;
+
             }
         }
     }
