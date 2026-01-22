@@ -3,13 +3,18 @@ package leetcode.editor.cn;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
         int maxArea = 0;
-        for (int i = 0; i < height.length - 1; i++) {
-            for (int j = i; j < height.length; j++) {
-                int area = Math.min(height[i], height[j]) * (j - i);
-                if (maxArea < area) {
-                    maxArea = area;
-                }
+        while (left < right) {
+            int max = Math.min(height[left], height[right]) * (right - left);
+            if (maxArea < max) {
+                maxArea = max;
+            }
+            if (height[left] <= height[right]) {
+                left++;
+            } else {
+                right--;
             }
         }
         return maxArea;
