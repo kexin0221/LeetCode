@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution11 {
     public int maxArea(int[] height) {
         int left = 0;
         int right = height.length - 1;
