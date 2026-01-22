@@ -1,20 +1,19 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution202 {
+
+    // 思路：判断链表是否有环（因为一定有环，无需判断），判断快慢指针相遇处的数值是否为1
+    // 方法：快慢双指针
+
     public boolean isHappy(int n) {
-        int count = 0;
-        while (n > 0) {
-            n = squareSum(n);
-            count++;
-            if (n == 1) {
-                return true;
-            }
-            if (count > 1000) {
-                break;
-            }
+        int slow = n;
+        int fast = squareSum(n);
+        while (slow != fast) {
+            slow = squareSum(slow);
+            fast = squareSum(squareSum(fast));
         }
-        return false;
+        return slow == 1;
     }
 
     private int squareSum(int n) {
