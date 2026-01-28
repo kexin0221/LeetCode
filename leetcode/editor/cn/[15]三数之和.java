@@ -9,16 +9,24 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ret = new ArrayList<>();
         Arrays.sort(nums);
-        ArrayList<Integer> index = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) {
-                index.add(i);
+        int i = nums.length-1;
+        while (i > 1) {
+            int left = 0, right = i - 1;
+            while (left < right) {
+                if (nums[left] + nums[right] + nums[i] == 0) {
+                    List<Integer> newList = Arrays.asList(nums[left], nums[right], nums[i]);
+                    if (!ret.contains(newList)) {
+                        ret.add(newList);
+                    }
+                    left++;
+                } else if (nums[left] + nums[right] + nums[i] < 0) {
+                    left++;
+                } else {
+                    right--;
+                }
             }
+            i--;
         }
-        int firstZeroIndex = index.get(0);
-        int lastZeroIndex = index.get(index.size() - 1);
-        int left = 0, right = nums.length - 1;
-        if ()
         return ret;
     }
 }
