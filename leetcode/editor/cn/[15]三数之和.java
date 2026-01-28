@@ -9,23 +9,27 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ret = new ArrayList<>();
         Arrays.sort(nums);
-        int i = nums.length-1;
-        while (i > 1) {
-            int left = 0, right = i - 1;
+        for (int i = 0; i < nums.length;) {
+            if (nums[i] > 0) break;
+            int left = i + 1, right = nums.length - 1;
+            int keyNum = nums[i];
             while (left < right) {
-                if (nums[left] + nums[right] + nums[i] == 0) {
-                    List<Integer> newList = Arrays.asList(nums[left], nums[right], nums[i]);
-                    if (!ret.contains(newList)) {
-                        ret.add(newList);
-                    }
-                    left++;
-                } else if (nums[left] + nums[right] + nums[i] < 0) {
+                int leftNum = nums[left], rightNum = nums[right];
+                if (leftNum + rightNum + keyNum == 0) {
+                    ret.add(new ArrayList<>(Arrays.asList(leftNum, rightNum, keyNum)));
+                    left++; right--;
+                    // 去重：left right
+                    while (left < right && nums[left - 1] == nums[left]) left++;
+                    while (left < right && nums[right + 1] == nums[right]) right--;
+                } else if (leftNum + rightNum + keyNum < 0) {
                     left++;
                 } else {
                     right--;
                 }
             }
-            i--;
+            // 去重：i
+            i++;
+            while (i < nums.length && nums[i-1] == nums[i]) i++;
         }
         return ret;
     }
