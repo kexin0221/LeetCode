@@ -28,8 +28,8 @@ class Solution15 {
                 }
             }
             // 去重：i
-            i++;
-            while (i < nums.length && nums[i-1] == nums[i]) i++;
+            do i++;
+            while (i < nums.length && nums[i - 1] == nums[i]);
         }
         return ret;
     }
