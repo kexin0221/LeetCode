@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution3 {
     public int lengthOfLongestSubstring(String s) {
         char[] arr = s.toCharArray();
         int ret = 0, n = arr.length;
