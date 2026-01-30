@@ -1,9 +1,7 @@
 package leetcode.editor.cn;
 
-import java.util.Arrays;
-
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution209 {
     public int minSubArrayLen(int target, int[] nums) {
         int minLength = Integer.MAX_VALUE, n = nums.length, sum = 0;
         for (int left = 0, right = 0; right < n; right++) {
