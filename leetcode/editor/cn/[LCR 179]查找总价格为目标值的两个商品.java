@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class SolutionLCR179 {
     public int[] twoSum(int[] price, int target) {
         int left = 0, right = price.length - 1;
         while (left < right) {
