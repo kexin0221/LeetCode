@@ -3,7 +3,7 @@ package leetcode.editor.cn;
 import java.util.Arrays;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution1658 {
     public int minOperations(int[] nums, int x) {
         int target = Arrays.stream(nums).sum() - x;
         if (target < 0) return -1;
