@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution1004 {
     public int longestOnes(int[] nums, int k) {
         int maxLen = 0;
         // 滑动窗口中0的个数不超过k

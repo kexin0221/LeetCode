@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class test {
     public static void main(String[] args) {
         int[] a = new int[]{1, 2, 3, 4, 5};
-        Solution solution = new Solution();
-        int i = solution.minSubArrayLen(11, a);
+        int i = Arrays.stream(a).sum();
         System.out.println(i);
     }
 }
