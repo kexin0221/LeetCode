@@ -3,7 +3,7 @@ package leetcode.editor.cn;
 import java.util.HashMap;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution904 {
     public int totalFruit(int[] fruits) {
         if (fruits.length == 1 || fruits.length == 2) return fruits.length;
         int ret = 0;
