@@ -8,26 +8,37 @@ import java.util.List;
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> newList = new ArrayList<>();
-        if (s.length() < p.length()) return newList;
+
+        if (s.length() < p.length()) {
+            return newList;
+        }
+
         int[] pcounts = new int[26];
-        for (int i = 0; i < p.length(); i++) {
-            pcounts[p.charAt(i)-'a']++;
-        }
         int[] scounts = new int[26];
-        int left = 0, right = left+p.length()-1;
+
         for (int i = 0; i < p.length(); i++) {
-            scounts[s.charAt(i)-'a']++;
+            pcounts[p.charAt(i) - 'a']++;
         }
-        if (Arrays.equals(scounts, pcounts)) {
-            newList.add(0);
-        }
-        for (int i = p.length(); i < s.length(); i++) {
-            scounts[s.charAt(i - p.length()) - 'a']--;
+
+        for (int i = 0; i < p.length(); i++) {
             scounts[s.charAt(i) - 'a']++;
+        }
+
+        int left = 0;
+        int right = p.length() - 1;
+
+        if (Arrays.equals(scounts, pcounts)) {
+            newList.add(left);
+        }
+
+        while (right < s.length() - 1) {
+            scounts[s.charAt(left++) - 'a']--;
+            scounts[s.charAt(++right) - 'a']++;
             if (Arrays.equals(scounts, pcounts)) {
-                newList.add(i - p.length() + 1);
+                newList.add(left);
             }
         }
+
         return newList;
     }
 }
