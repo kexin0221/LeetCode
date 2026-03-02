@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution438 {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> newList = new ArrayList<>();
 
