@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution76 {
     public String minWindow(String ss, String tt) {
         char[] s = ss.toCharArray();
         char[] t = tt.toCharArray();
