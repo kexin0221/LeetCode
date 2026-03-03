@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution30 {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> newList = new ArrayList<>();
         int len = words[0].length(), m = words.length;
