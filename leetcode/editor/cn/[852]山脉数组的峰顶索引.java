@@ -3,12 +3,16 @@ package leetcode.editor.cn;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution852 {
     public int peakIndexInMountainArray(int[] arr) {
-        for (int i = 1; i < arr.length - 1; i++) {
-            if (arr[i - 1] < arr[i] && arr[i] > arr[i + 1]) {
-                return i;
+        int left = 1, right = arr.length - 2;
+        while (left < right) {
+            int mid = left + (right - left + 1) / 2;
+            if (arr[mid] > arr[mid - 1]) {
+                left = mid;
+            } else {
+                right = mid - 1;
             }
         }
-        return 1;
+        return left;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
