@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution238 {
     public int[] productExceptSelf(int[] nums) {
         int[] answer = new int[nums.length];
         int[] f = new int[nums.length];
