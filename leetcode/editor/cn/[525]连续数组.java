@@ -1,19 +1,22 @@
 package leetcode.editor.cn;
 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int findMaxLength(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) nums[i] = -1;
-        }
-        int maxLength = 0, sum = 0;
-        for (int i = 0; i < nums.length-1; i++) {
-            sum += nums[i];
-            for (int j = i+1; j < nums.length; j++) {
+import java.util.HashMap;
 
+//leetcode submit region begin(Prohibit modification and deletion)
+class Solution525 {
+    public int findMaxLength(int[] nums) {
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        hashMap.put(0, -1);
+        int sum = 0, ret = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += (nums[i] == 0 ? -1 : 1);
+            if (hashMap.containsKey(sum)) {
+                ret = Math.max(ret, i - hashMap.get(sum));
+            } else {
+                hashMap.put(sum, i);
             }
         }
-        return maxLength;
+        return ret;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
