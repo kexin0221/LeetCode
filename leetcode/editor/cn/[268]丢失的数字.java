@@ -1,17 +1,17 @@
 package leetcode.editor.cn;
 
-import java.util.Arrays;
-
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution268 {
     public int missingNumber(int[] nums) {
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != i) {
-                return i;
-            }
+        // 异或运算律
+        int num1 = 0, num2 = 0;
+        for (int num : nums) {
+            num1 ^= num;
         }
-        return nums.length;
+        for (int i = 0; i <= nums.length; i++) {
+            num2 ^= i;
+        }
+        return num1 ^ num2;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

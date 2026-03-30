@@ -27,4 +27,10 @@ public class BitwiseOperations {
     public int minusRightMost1(int n) {
         return n & (n-1);
     }
+
+
+    // 异或运算律
+    // 1.a ^ 0 = a
+    // 2.a ^ a = 0
+    // 3.a ^ b ^ c = a ^ (b ^ c)
 }
