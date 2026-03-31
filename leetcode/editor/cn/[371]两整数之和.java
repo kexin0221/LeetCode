@@ -3,8 +3,12 @@ package leetcode.editor.cn;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int getSum(int a, int b) {
-        int ret = 0;
-
+        while (b != 0) {
+            int t = a ^ b;
+            b = (a & b) << 1;
+            a = t;
+        }
+        return a;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
