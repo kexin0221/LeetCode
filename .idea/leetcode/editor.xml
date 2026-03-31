@@ -476,6 +476,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[808]分汤.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[808]分汤.md" />
+              <option name="frontendQuestionId" value="leetcode.cn808" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[808]分汤.java" />
+              <option name="titleSlug" value="soup-servings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[852]山脉数组的峰顶索引.java">
           <value>
             <LeetcodeEditor>
