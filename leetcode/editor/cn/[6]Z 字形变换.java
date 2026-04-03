@@ -1,7 +1,7 @@
 package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution6 {
     public String convert(String s, int numRows) {
         if(numRows == 1) return s;
         int d = 2 * numRows - 2, n = s.length();
