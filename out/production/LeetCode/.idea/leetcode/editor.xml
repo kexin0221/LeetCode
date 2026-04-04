@@ -91,6 +91,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[137]只出现一次的数字 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[137]只出现一次的数字 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn137" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[137]只出现一次的数字 II.java" />
+              <option name="titleSlug" value="single-number-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[13]罗马数字转整数.java">
           <value>
             <LeetcodeEditor>
@@ -121,6 +132,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[153]寻找旋转排序数组中的最小值.java" />
               <option name="titleSlug" value="find-minimum-in-rotated-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1576]替换所有的问号.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1576]替换所有的问号.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1576" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1576]替换所有的问号.java" />
+              <option name="titleSlug" value="replace-all-s-to-avoid-consecutive-repeating-characters" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -234,6 +256,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[260]只出现一次的数字 III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[260]只出现一次的数字 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn260" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[260]只出现一次的数字 III.java" />
+              <option name="titleSlug" value="single-number-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[268]丢失的数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[268]丢失的数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn268" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[268]丢失的数字.java" />
+              <option name="titleSlug" value="missing-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[26]删除有序数组中的重复项.java">
           <value>
             <LeetcodeEditor>
@@ -311,6 +355,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[371]两整数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[371]两整数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn371" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[371]两整数之和.java" />
+              <option name="titleSlug" value="sum-of-two-integers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[38]外观数列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[38]外观数列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn38" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[38]外观数列.java" />
+              <option name="titleSlug" value="count-and-say" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[3]无重复字符的最长子串.java">
           <value>
             <LeetcodeEditor>
@@ -341,6 +407,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[438]找到字符串中所有字母异位词.java" />
               <option name="titleSlug" value="find-all-anagrams-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[495]提莫攻击.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[495]提莫攻击.md" />
+              <option name="frontendQuestionId" value="leetcode.cn495" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[495]提莫攻击.java" />
+              <option name="titleSlug" value="teemo-attacking" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -421,6 +498,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[6]Z 字形变换.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[6]Z 字形变换.md" />
+              <option name="frontendQuestionId" value="leetcode.cn6" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[6]Z 字形变换.java" />
+              <option name="titleSlug" value="zigzag-conversion" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[704]二分查找.java">
           <value>
             <LeetcodeEditor>
@@ -451,6 +539,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[76]最小覆盖子串.java" />
               <option name="titleSlug" value="minimum-window-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[808]分汤.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[808]分汤.md" />
+              <option name="frontendQuestionId" value="leetcode.cn808" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[808]分汤.java" />
+              <option name="titleSlug" value="soup-servings" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -528,6 +627,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[LCR 179]查找总价格为目标值的两个商品.java" />
               <option name="titleSlug" value="he-wei-sde-liang-ge-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[面试题 01.01]判定字符是否唯一.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[面试题 01.01]判定字符是否唯一.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 01.01" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[面试题 01.01]判定字符是否唯一.java" />
+              <option name="titleSlug" value="is-unique-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[面试题 17.19]消失的两个数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[面试题 17.19]消失的两个数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 17.19" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[面试题 17.19]消失的两个数字.java" />
+              <option name="titleSlug" value="missing-two-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
